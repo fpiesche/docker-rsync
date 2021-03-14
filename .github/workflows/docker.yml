@@ -1,7 +1,6 @@
-name: Build simple Docker images
+name: Build Docker image
 
 on:
-  # Run every other morning, time chosen arbitrarily as a likely low-activity period.
   # Allow manual runs.
   workflow_dispatch:
   # Also run on updates to this repo.
